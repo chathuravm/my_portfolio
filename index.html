@@ -122,6 +122,9 @@
     border:1px solid var(--line);
     display:flex; align-items:center; justify-content:center;
     box-shadow:0 0 0 1px var(--bg), 0 20px 60px -20px rgba(0,90,205,0.55);
+    background-image: url('cv_photo.png');
+    background-size: cover;
+    background-position: center;
   }
   /* To use a real photo: give #photoDisc a background-image (see the
      HTML comment above the element) and delete the .photo-mono span. */
@@ -281,11 +284,9 @@
     <div class="photo-col reveal in">
       <div class="photo-frame brackets">
         <div class="photo-ring"></div>
-        <!-- To use a real photo: add background-image:url('your-photo.jpg')
-             (plus background-size:cover; background-position:center;) to
-             #photoDisc below, and remove the <span class="photo-mono"> line. -->
+        
         <div class="photo-disc" id="photoDisc">
-          <span class="photo-mono">CM</span>
+          
         </div>
       </div>
       <span class="photo-caption">Undergraduate Engineer</span>
